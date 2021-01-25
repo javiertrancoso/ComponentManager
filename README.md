@@ -2,8 +2,9 @@
 This project is a Planetbase mod that allows the users to change some properties of most of the components.
 
 ## Requirements
-[Unity Mod Installer](https://www.nexusmods.com/site/mods/21)
-[Unity Mod Installer Cofiguration](https://www.nexusmods.com/planetbase/mods/43)
+
+* [Unity Mod Installer](https://www.nexusmods.com/site/mods/21)
+* [Unity Mod Installer Cofiguration](https://www.nexusmods.com/planetbase/mods/43)
 
 ## settings.config Sintaxis
 Use:
