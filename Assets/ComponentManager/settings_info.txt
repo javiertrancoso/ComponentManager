@@ -1,0 +1,101 @@
+### SINTAXIS ###
+    Use:
+        - Capitalize/CamelCase names.
+        - Slash(/) to declare a component.
+        - Colon(:) to declare the values.
+        - Comma(,) as properties separator.
+        - Vertical bar(|) as list's item separator.
+
+    Following this rules you should get a result similar to the next structure:
+        /Component:
+            Prop1: 1,
+            Prop2: 81
+        /Component2:
+            Prop1: 25,
+            ListProp : 
+                Ore: 1 | Chicken: 3,
+            Prop3: "A rare component"
+
+### RESOURCE TYPES ###
+    # Vitromeat #
+        AnyMeat
+        Chicken
+        Pork
+        Beef
+    # Vegetables #
+        AnyVegetable
+        Wheat
+        Maize
+        Rice
+        Peas
+        Potatoes
+        Lettuce
+        Tomatoes
+        Onions
+        Radishes
+        Mushrooms
+    # Meal #
+        Basic
+        Salad
+        Pasta
+        Burger
+    # Starch #
+    # Spares #
+    # Semiconductors #
+    # Ore #
+    # Metal #
+    # MedicinalPlants #
+    # MedicalSupplies #
+    # Gun #
+    # Coins #
+    # Bioplastic #
+    # AlcoholicDrink #
+
+### COMPONENT NAMES ###
+    # PLANTS #
+        MaizePad, WheatPad, RicePad, PeaPad, PotatoPad, OnionPad, LettucePad
+        TomatoPad, MushroomPad, RadishPad, MedicinalPad, GmTomatoPad, GmOnionPad
+        DecorativePlant, PineTree, OakTree
+    # PROCESSORS #
+        MetalProcessor, BioplasticProcessor, MealMaker, TissueSynthesizer
+        DrinksMachine, BotWorkshop, SparesWorkshop, Workbench, SemiconductorFoundry
+        ArmsWorkshop
+    # CABINETS #
+        Armory, MedicalCabinet
+    # CONSOLES #
+        SecurityConsole, RadioConsole, TelescopeConsole
+    # OTHERS #
+        Bed, SickBayBed, Bunk, Bench, VideoScreen, Treadmill, ExerciseBar
+        DrinkingFountain, Table, TableSmall, BarTable, BarTableNoChairs
+        BotAutoRepair
+
+### PROPERTY NAMES ###
+    # INTEGERS #
+        mPowerGeneration,
+        mOxygenGeneration,
+        mWaterGeneration,
+        mMaxUsers,
+        mFlags,
+        mHoldResourceCount,
+        mSurveyedConstructionCount,
+        mEmbeddedResourceCount
+
+    # FLOATS/DECIMALS (USE ALWAYS DOT TO SPLIT DECIMAL PART) #
+        mUsageCooldown,
+        mConditionDecayTime,
+        mMaxUsageTime,
+        mHeight,
+        mRepairTime,
+        mRadius,
+        mResourceProductionPeriod,
+        mWallSeparation
+
+    # STRINGS #
+        mName,
+        mPrefabName,
+        mTooltip,
+        mOperatedModuleType
+
+    # LISTS #
+        mProduction
+

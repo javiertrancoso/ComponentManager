@@ -1,0 +1,11 @@
+{
+    "ID":  "ComponentManager",
+    "Version":  "1.1.0",
+    "DisplayName":  "ComponentManager",
+    "AssemblyName":  "ComponentManager.dll",
+    "Author":  "javiertrancoso",
+    "GameVersion":  "1.3.7",
+    "HomePage":  "https://www.nexusmods.com/planetbase/mods/52/",
+    "Repository":  "https://github.com/javiertrancoso/ComponentManager",
+    "EntryMethod":  "JTLMods.ComponentManager.Init"
+}
